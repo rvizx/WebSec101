@@ -9,3 +9,5 @@ WebSec101 - Introduction to Web Application Security Event - ISACA NSBM
 
 ## Security Misconfigurations
 - Exposed sensitive information - passwords, API keys
+- Directory Listing
+
