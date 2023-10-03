@@ -1,14 +1,27 @@
 # WebSec101
 
-WebSec101 - Introduction to Web Application Security Event - ISACA NSBM 
+WebSec101 - Introduction to Web Application Security Event by ISACA NSBM.
 
-![alt text](https://github.com/rvizx/WebSec101/blob/main/assets/img/ss.png?raw=true)
+![WebSec101 Logo](https://github.com/rvizx/WebSec101/blob/main/assets/img/ss.png?raw=true)
 
+- Most of the demonstrations are conducted using [OWASP JuiceShop](https://github.com/juice-shop/juice-shop/).
 
-## File Upload Vulnerabilities 
-- web applications that allow users to upload files to the server in a way that can be exploited by attackers.
+### File Upload Vulnerabilities
+Web applications that allow users to upload files to the server may be vulnerable to exploitation by attackers.
 
-## Security Misconfigurations
-- Exposed sensitive information - passwords, API keys
-- Directory Listing
+### Security Misconfigurations
+Common issues include exposed sensitive information such as passwords and API keys, as well as directory listing vulnerabilities.
 
+---
+
+### Usage
+
+To get started:
+
+```bash
+git clone https://github.com/rvizx/WebSec101
+cd WebSec101
+php -S localhost:8080
+```
+
+Then, visit http://localhost:8080 in your web browser.
