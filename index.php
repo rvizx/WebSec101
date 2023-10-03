@@ -21,8 +21,7 @@
 
         <?php
 
-        // handle the file upload thingy
-
+        // handle the file upload 
         if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_FILES['file'])) {
             $uploadDir = 'uploads/';
             $uploadFile = $uploadDir . basename($_FILES['file']['name']);
@@ -36,21 +35,7 @@
         ?>
 
 
-        <!-- show uploaded files -->
-
-        <h2>Uploaded Files</h2>
-        <ul>
-            <?php
-            $uploadDir = 'uploads/';
-            $files = scandir($uploadDir);
-            foreach ($files as $file) {
-                if ($file !== '.' && $file !== '..') {
-                    echo '<li><a href="' . $uploadDir . $file . '">' . $file . '</a></li>';
-                }
-            }
-            ?>
-        </ul>
-    </div>
+   </div>
 </body>
 </html>
 
