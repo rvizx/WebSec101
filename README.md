@@ -1,6 +1,7 @@
 # WebSec101
 
-WebSec101 - Introduction to Web Application Security Event - ISACA NSBM
+WebSec101 - Introduction to Web Application Security Event - ISACA NSBM 
+
 ![alt text](https://github.com/rvizx/WebSec101/blob/main/assets/img/ss.png?raw=true)
 
 
