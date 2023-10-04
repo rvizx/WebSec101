@@ -31,7 +31,7 @@ foreach ($contents as $item) {
     } else {
         // file info
         echo '<tr>';
-        echo '<td><a href="' . htmlspecialchars($item) . '">' . $item . '</a></td>';
+        echo '<td><a href="uploads/' . htmlspecialchars($item) . '">'  . $item . '</a></td>';
         echo '<td>' . date('Y-m-d H:i:s', filemtime($itemPath)) . '</td>';
         echo '<td>' . filesize($itemPath) . ' bytes</td>';
         echo '</tr>';
