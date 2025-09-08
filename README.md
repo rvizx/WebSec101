@@ -4,8 +4,6 @@ WebSec101 - Introduction to Web Application Security Event by ISACA NSBM.
 
 ![WebSec101 Logo](https://github.com/rvizx/WebSec101/blob/main/assets/img/ss.png?raw=true)
 
-- Most of the demonstrations are conducted using [OWASP JuiceShop](https://github.com/juice-shop/juice-shop/).
-
 ### File Upload Vulnerabilities
 Web applications that allow users to upload files to the server may be vulnerable to exploitation by attackers.
 
